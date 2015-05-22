@@ -60,7 +60,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void Button(View view) {
         Intent intent = new Intent("com.example.yu.broadcasttest.MY_BROADCAST");
-        sendBroadcast(intent);
+//        sendBroadcast(intent);
+        sendOrderedBroadcast(intent,null);
 
     }
 
